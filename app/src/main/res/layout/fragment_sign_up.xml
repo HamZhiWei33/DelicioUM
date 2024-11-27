@@ -39,7 +39,7 @@
         android:layout_marginTop="60dp"/>
 
     <EditText
-        android:id="@+id/ETEmail"
+        android:id="@+id/ETForgetEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="@string/email"
