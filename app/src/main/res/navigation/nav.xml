@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/DestMain">
+
+    <activity
+        android:id="@+id/DestMain"
+        android:name="com.example.sad.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/DestHome"
+        android:name="com.example.sad.HomeActivity"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/DestTrack"
+        android:name="com.example.sad.TrackFragment"
+        android:label="fragment_track"
+        tools:layout="@layout/fragment_track" />
+    <fragment
+        android:id="@+id/DestProfile"
+        android:name="com.example.sad.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/DestCart"
+        android:name="com.example.sad.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+</navigation>

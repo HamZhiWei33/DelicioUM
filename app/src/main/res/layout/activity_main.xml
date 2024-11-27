@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_to"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:fontFamily="@font/ropa_sans"
+        android:text="@string/welcome_to___string"
+        android:textColor="@color/welcome_to___color"
+        android:textSize="50sp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/delicioum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:fontFamily="@font/ropa_sans"
+        android:text="@string/delicioum___string"
+        android:textColor="@color/delicioum___color"
+        android:textSize="50sp"
+        />
+
+    <ImageView
+        android:id="@+id/logo__delicioum_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo__delicioum_1"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/delicioLogo"/>
+
+    <Button
+        android:id="@+id/BTNLogin"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/ropa_sans"
+        android:textSize="20sp"
+        android:background="@drawable/btn_background"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/BTNSignup"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/ropa_sans"
+        android:textSize="20sp"
+        android:background="@drawable/btn_background"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

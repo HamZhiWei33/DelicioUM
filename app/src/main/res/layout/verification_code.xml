@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificationCodeActivity">
+
+    <TextView
+        android:id="@+id/TVVerificationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ropa_sans"
+        android:text="@string/verification_code"
+        android:textColor="@color/delicioum___color"
+        android:textSize="50sp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/TVCheckEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:fontFamily="@font/inter"
+        android:text="@string/check_your_email"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TVEmailDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:fontFamily="@font/inter"
+        android:text="@string/we_sent_a_reset_link_to_xxx_xxx_com_enter_5_digit_code_that_mentioned_in_the_email"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/ETCode_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/inter"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:lines="1"
+            android:textSize="18sp"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/ETCode_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/inter"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:lines="1"
+            android:textSize="18sp"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/ETCode_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/inter"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:lines="1"
+            android:textSize="18sp"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/ETCode_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/inter"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:lines="1"
+            android:textSize="18sp"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/ETCode_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/inter"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:lines="1"
+            android:textSize="18sp"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/ETCode_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/inter"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:lines="1"
+            android:textSize="18sp"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BTNUpdatePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verify_code"
+        android:fontFamily="@font/ropa_sans"
+        android:background="@drawable/btn_background_secondary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="Haven’t got the email yet?"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            />
+
+        <TextView
+            android:id="@+id/TVResendEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Resend email"
+            android:textColor="@color/clickable" />
+
+    </RelativeLayout>
+
+</LinearLayout>

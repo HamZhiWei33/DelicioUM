@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/ropa_sans"
+        android:text="@string/login"
+        android:textColor="@color/delicioum___color"
+        android:textSize="50sp" />
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/textInputLayoutEmail"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:hint="@string/email"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        app:helperText="Required"-->
+<!--        app:helperTextTextColor="@color/red"-->
+<!--        app:startIconDrawable="@drawable/icon_email_24">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/textInputEditEmail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:lines="1" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:id="@+id/ETEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/email"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/icon_email_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/inter"
+        android:hint="@string/email"
+        android:inputType="text|textEmailAddress|textAutoComplete"
+        android:lines="1"
+        android:padding="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <EditText
+        android:id="@+id/ETPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/password"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/icon_lock_24"
+        android:drawableEnd="@drawable/icon_password_toggle"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/inter"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:padding="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/TVForgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/inter"
+            android:text="@string/forget_password"
+            android:textColor="@color/clickable" />
+
+        <TextView
+            android:id="@+id/TVSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/sign_up"
+            android:textColor="@color/clickable" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BTNLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btn_background_secondary"
+            android:fontFamily="@font/ropa_sans"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

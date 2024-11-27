@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SAD</string>
+    <string name="welcome_to___string">Welcome to</string>
+    <string name="delicioum___string">DelicioUM !</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="delicioLogo">delicioum logo</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_has_an_account">Already has an account?</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="your_email">Your email</string>
+    <string name="please_enter_your_email_to_reset_the_password">Please enter your email to reset the password</string>
+    <string name="check_your_email">Check your email</string>
+    <string name="we_sent_a_reset_link_to_xxx_xxx_com_enter_5_digit_code_that_mentioned_in_the_email">We sent a reset link to xxx@xxx.com enter 5 digit code that mentioned in the email</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="haven_t_got_the_email_yet">Haven’t got the email yet?</string>
+    <string name="resend_email">Resend email</string>
+    <string name="reset_password">Reset password</string>
+    <string name="change_your_password">Change your password</string>
+    <string name="create_a_new_password_ensure_it_differs_from_previous_ones_for_security">Create a new password. Ensure it differs from previous ones for security</string>
+    <string name="update_password">Update Password</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="track">Track</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

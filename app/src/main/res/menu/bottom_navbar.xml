@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/DestHome"
+            android:icon="@drawable/icon_home_selector"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/DestCart"
+            android:icon="@drawable/icon_cart"
+            android:title="@string/cart" />
+        <item
+            android:id="@+id/DestTrack"
+            android:icon="@drawable/icon_track"
+            android:title="@string/track" />
+
+        <item
+            android:id="@+id/DestProfile"
+            android:icon="@drawable/icon_profile"
+            android:title="@string/profile" />
+    </group>
+</menu>
